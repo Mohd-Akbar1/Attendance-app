@@ -1,0 +1,86 @@
+
+.AdminPage{
+    
+   
+    position: relative;
+    margin: auto;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.334);
+  
+}
+table, th, td {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-color: #96D4D4;
+    text-align: center;
+    padding: 10px;
+  }
+  tr:hover{
+    background-color: rgba(0, 0, 0, 0.19);
+    transition: 1s;
+  }
+  th{
+    font-size: 20px;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.611);
+    color: white;
+  }
+  table{
+    margin: 10px ;
+  }
+.Adminhead{
+    box-sizing: content-box;
+    text-align: center;
+    width: 100%;
+    background-color:#0D2D5E;
+    padding: 20px 0;
+    color: white;
+   
+    border: 1px solid rgba(0, 0, 0, 0.089);
+   
+}
+.userdetails{
+    
+    background-color: white;
+    width: 60vw;
+    
+  
+    
+    
+}
+.LogoutbtnforAdmin{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    background-color: rgba(255, 0, 0, 0.742);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.LogoutbtnforAdmin:active{
+    transform: scale(0.9);
+}
+.users{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border: 1px solid rgba(128, 128, 128, 0.482);
+
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.users p{
+    flex: 1;
+
+}

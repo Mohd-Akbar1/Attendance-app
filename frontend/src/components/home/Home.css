@@ -1,0 +1,87 @@
+
+.Homepage{
+    width: 99vw;
+    display: flex;
+    flex-direction: column; 
+     justify-content: center;
+    align-items: center;
+    position: relative;
+
+    
+}
+.head{
+    width: 100vw;
+}
+
+
+.homedata{
+   width: 70vw;
+   margin-top: 10px;
+    
+    
+   justify-content: space-between; 
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    background-color: rgba(240, 248, 255, 0.378);
+    flex-wrap: wrap;
+}
+.viewR{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 70vw;
+    /* border: 1px solid rgba(0, 0, 0, 0.171); */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+    
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.buttons p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.viewR .logout{
+    background-color: red;
+}
+.currentInfo{
+    width: 20%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    
+   border-right: 2px solid blue;
+   
+    
+    
+}
+.currentInfo p{
+    padding-top: 10px;
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+.Homepage .btn{
+    padding: 10px 20px;
+    font-size: 16px;
+   
+}
+.Goback{
+    background-color: blue;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+    position: absolute;
+    right:30px;
+    top: 30px;
+    border: none;
+}
+

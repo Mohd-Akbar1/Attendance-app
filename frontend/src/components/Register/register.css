@@ -1,0 +1,27 @@
+.regContainer{
+    width: 50vw;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.LoginContainer h1{
+    color: blue;
+}
+.formdata{
+    position: relative;
+}
+.seePassword{
+    position: absolute;
+    top: 110px;
+    right: 25px;
+}
+.signupimage{
+    width: 100%;
+    height: 80%;
+}
+.headingLogo{
+    margin-top: 40px;
+    height: 80vh;
+}

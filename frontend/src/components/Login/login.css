@@ -1,0 +1,104 @@
+
+
+.LoginContainer{
+    width: 100vw;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    
+   
+   
+
+}
+.loginform{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 20vw;
+  
+   padding: 20px;
+   border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.192) 0px 5px 15px;
+    height: min-content;
+    margin-top: 100px;
+   
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.formdata{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+    padding: 30px 5px;
+    border-radius: 4px;
+}
+.formdata input{
+    padding: 12px;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    font-size: 16px;
+}
+.loginform h2{
+    text-align: center;
+}
+hr{
+    width: 100%;
+}
+
+.btn{
+    background-color: rgba(0, 0, 255, 0.841);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 2px;
+    border-radius: 4px;
+    font-weight: 600;
+
+}
+.btn:active{
+    transform: scale(0.98);
+}
+.btn:hover{
+    background-color: rgba(0, 0, 255, 0.775);
+}
+.form-check{
+    display: flex;
+    gap: 5px
+}
+@media (max-width:750px){
+    .LoginContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .loginform{
+        max-width:400px ;
+        width: 100%;
+        
+    }
+}
+@media (min-width: 750px) and (max-width: 1024px) {
+    
+    .headinglogo{
+        width: 50%;
+    }
+    .loginImage{
+        width: 100%;
+        
+    }
+  .loginform{
+    width: 400px;
+  }
+    
+   
+}
